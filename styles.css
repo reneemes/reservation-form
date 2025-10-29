@@ -10,7 +10,8 @@ body {
   font-weight: lighter;
 }
 
-div {
+section {
+  border-radius: 10px;
   background: url(images/transparent_white.png);
   width: 540px;
   padding: 20px;
@@ -39,11 +40,21 @@ div {
   border: 10px solid white;
 }
 
+.form-sec > h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.form-sec > p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0 0;
 }
 
 form > label,
@@ -54,6 +65,7 @@ form > input {
 }
 
 label {
+  border-radius: 8px 8px 0 0;
   background-color: #333;
   color: white;
   text-transform: uppercase;
@@ -62,6 +74,7 @@ label {
 }
 
 input {
+  border-radius: 0 0 8px 8px;
   font-family: Georgia, Times, serif;
   font-style: italic;
   margin: 0 0 10px;
@@ -70,6 +83,7 @@ input {
 }
 
 .submit-btn {
+  border-radius: 8px;
   background-color: rgb(151, 15, 15);
   color: white;
   border: none;
